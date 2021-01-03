@@ -1,0 +1,105 @@
+@import "../components/layout.module.scss";
+
+.outerDiv {
+  height: 100vh;
+}
+.main {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 260px;
+  max-width: 600px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  @include mqCommon(400px) {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 50px;
+  }
+  @include mqCommon(600px) {
+    margin-left: 100px;
+    padding-top: 80px;
+    width: 65%;
+  }
+  @include mqCommon(800px) {
+    margin-left: 140px;
+    padding-top: 120px;
+    width: 58%;
+  }
+  @include mqCommon(1000px) {
+    margin-left: 200px;
+    width: 52%;
+  }
+  @include mqCommon(1200px) {
+    margin-left: 250px;
+    width: 50%;
+  }
+}
+.title {
+  font-size: 22px;
+  font-family: Tillana, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  color: #1b5e20;
+  margin-bottom: 15px;
+  @include mqCommon(600px) {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  @include mqCommon(800px) {
+    font-size: 26px;
+  }
+  @include mqCommon(1000px) {
+    font-size: 32px;
+  }
+}
+.menu {
+  margin-bottom: 25px;
+  @include mqCommon(600px) {
+    margin-bottom: 30px;
+  }
+  a {
+    margin-right: 15px;
+    color: #00897b;
+    font-family: "oneday", "Trebuchet MS", "Lucida Sans Unicode",
+      "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 1px;
+    &:hover {
+      text-decoration: underline;
+    }
+    @include mqCommon(600px) {
+      font-size: 13px;
+      letter-spacing: 2px;
+      margin-right: 28px;
+    }
+    @include mqCommon(1000px) {
+      font-size: 15px;
+    }
+  }
+}
+
+.para {
+  font-family: "Alegreya Sans", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  word-spacing: 8px;
+  a {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  @include mqCommon(800px) {
+    font-size: 20px;
+    line-height: 33px;
+  }
+  @include mqCommon(1000px) {
+    font-size: 22px;
+    line-height: 36px;
+  }
+}

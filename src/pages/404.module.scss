@@ -1,0 +1,16 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 100vw;
+  font-size: 30px;
+}
+.main div {
+  font-size: 70px;
+  font-weight: "bold";
+}
+.main p {
+  margin-top: 20px;
+}
