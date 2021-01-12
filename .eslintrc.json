@@ -1,3 +1,4 @@
 {
-    "extends":["airbnb","airbnb/hooks","prettier-config-eslint"]
+    "extends":["eslint-recommended","eslint-config-prettier"]
+
 }

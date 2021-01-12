@@ -1,12 +1,10 @@
 import React from "react";
 
-import styles from "./404.module.scss";
-
 const NotFound = (props) => {
   return (
-    <div className={styles.main}>
-      <div>404</div>
-      <p>page not found</p>
+    <div className="flex flex-col justify-center items-center mt-48 w-screen text-3xl">
+      <div className="text-7xl font-bold">404</div>
+      <p className="mt-5">page not found</p>
     </div>
   );
 };
