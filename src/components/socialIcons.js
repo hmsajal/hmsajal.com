@@ -29,7 +29,7 @@ const SocialIcons = () => {
             <img
               src={myProfile.items[key]}
               alt={name}
-              className="w-9 rounded-3xl relative bottom-0 transform duration-150 hover:-translate-y-1"
+              className="w-9 rounded-3xl relative bottom-0 transform duration-200 hover:-translate-y-1"
             />
           </a>
         );

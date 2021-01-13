@@ -15,35 +15,29 @@ const Index = () => {
           <h2 className="mb-4 sm:mb-5 font-normal text-xl sm:text-2xl lg:text-3xl text-green-800 font-tillana">
             Hasan Mahmud Sajal
           </h2>
-          <div className="mb-5 font-oneday font-bold text-xs md:text-sm text-cyan-700">
-            <Link
-              to="/bio"
-              className="mr-4 sm:mr-7 hover:underline tracking-wide1p sm:tracking-wide2p"
-            >
-              About Me
-            </Link>
+          <div className="mb-6 font-oneday text-xs md:text-sm text-cyan-700">
             <Link
               to="/career"
-              className="mr-4 sm:mr-7 hover:underline tracking-wide1p sm:tracking-wide2p"
+              className="mr-4 sm:mr-7 hover:font-bold tracking-wide1p sm:tracking-wide2p"
             >
               Portfolio
             </Link>
-            <Link
-              to="/blog"
-              className="mr-4 sm:mr-7 hover:underline tracking-wide1p sm:tracking-wide2p"
+            <a
+              href="https://blog.hmsajal.com"
+              className="mr-4 sm:mr-7 hover:font-bold tracking-wide1p sm:tracking-wide2p"
             >
               Blog
-            </Link>
+            </a>
             <Link
               to="/contact"
-              className="mr-4 sm:mr-7 hover:underline tracking-wide1p sm:tracking-wide2p"
+              className="mr-4 sm:mr-7 hover:font-bold tracking-wide1p sm:tracking-wide2p"
             >
               Contact
             </Link>
           </div>
           <div
-            style={{ wordSpacing: "8px" }}
-            className="text-lg md:text-xl lg:text-2xl font-alegreya italic break-words leading-7 md:leading-8 lg:leading-9"
+            style={{ wordSpacing: "9px", fontFamily: "fira sans" }}
+            className="text-lg md:text-xl font-light break-words leading-8 md:leading-9 lg:leading-10"
           >
             Hi, I am Hasan Mahmud Sajal. I am a front-end web developer and
             JavaScript is my de facto programming language for developing
